@@ -3,6 +3,11 @@
 
 <head>
     <title>Website101</title>
+    <script>
+        function Click() {
+            alert('Thank you!')
+        }
+    </script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -44,8 +49,8 @@
                 <p>It was somewhere around January when I visited this place.</p>
             </li>
             <li>
-                <img src="portfolio3.jpg" alt="Pokhara">
-                <h3>Pokhara</h3>
+                <img src="portfolio3.jpg" alt="Beni">
+                <h3>Beni</h3>
                 <p>This is a picture from the time when I had gone for a morning jog.</p>
             </li>
             <li>
@@ -58,14 +63,14 @@
 
     <section id="contact">
         <h2>Contact Me:</h2>
-        <form >
+        <form id="forma">
             <label for="name">Name:-</label>
             <input type="text" id="name" name="name" required>
             <label for="email">Email:-</label>
             <input type="email" id="email" name="email" required>
             <label for="message">Message:-</label>
             <textarea id="message" name="message" required></textarea>
-            <input type="submit" value="Send">
+            <button class = "mybutton" onclick="Click()">Send</button>
         </form>
     </section>
 
