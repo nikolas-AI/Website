@@ -38,6 +38,7 @@ nav ul li {
 
 nav ul li a {
     color: #eef2f5;
+    background-color: transparent;
     text-decoration: none;
 }
 
@@ -109,6 +110,7 @@ input[type="submit"] {
     padding: 10px;
     cursor: pointer;
 }
+
 .mybutton {
     padding: 10px 20px;
     background-color: #007bff;
