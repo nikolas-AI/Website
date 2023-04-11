@@ -3,6 +3,7 @@
 
 <head>
     <title>Website101</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <script>
         function Click() {
             alert('Thank you!')
@@ -18,7 +19,7 @@
 
     <nav>
         <ul>
-            <li><a href="#intro">Intro</a></li>
+            <li><a href="#intro">Intro</a></li> <!--The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:-->
             <li><a href="#about">About</a></li>
             <li><a href="#recents">Recents</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -39,7 +40,11 @@
         <h2>Recents:</h2>
         <ul>
             <li>
-                <img src="portfolio1.jpg" alt="CG Temple ">
+                <img src="portfolio1.jpg" alt="CG Temple usemap="#workmap ">
+                <map name="workmap">
+                    <area shape="poly" coords="34,44,270,350" alt="Computer" href="computer.htm">
+                    <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+                </map>
                 <h3>CG Temple</h3>
                 <p>I visited this place on february.</p>
             </li>
@@ -63,7 +68,7 @@
 
     <section id="contact">
         <h2>Contact Me:</h2>
-        <form id="forma">
+         <form action="/action_page.php" target="_blank" method="Post"> <!-- The action attribute defines the action to be performed when the form is submitted. The target attribute specifies where to display the response that is received after submitting the form. -->
             <label for="name">Name:-</label>
             <input type="text" id="name" name="name" required>
             <label for="email">Email:-</label>
