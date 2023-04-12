@@ -120,6 +120,10 @@ input[type="submit"] {
     border: none;
     cursor: pointer;
 }
+.poem {
+    text-align: center;
+    
+} 
 
 /* Footer */
 footer {
