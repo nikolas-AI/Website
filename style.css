@@ -120,11 +120,16 @@ input[type="submit"] {
     border: none;
     cursor: pointer;
 }
-.poem {
+.poem li {
     text-align: center;
-    
+    padding: 10px;
+    background-color: #c38f8f;
 } 
-
+.git li {
+    padding: 10px;
+    text-align: center;
+    background-color: #73d3e3;
+}
 /* Footer */
 footer {
     background-color: #555;
