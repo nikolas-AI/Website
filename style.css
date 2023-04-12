@@ -78,6 +78,17 @@ nav ul li a {
     object-fit: cover;
     border-radius: 200px;
 }
+.twitter {
+    background-color: #066cfa;
+    padding: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+.mail {
+    text-align: center;
+    background-color: #e5e886;
+    padding: 10px;
+}
 
 /* Contact section */
 #contact {
