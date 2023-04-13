@@ -77,13 +77,58 @@ nav ul li a {
     max-height: 200px;
     object-fit: cover;
     border-radius: 200px;
+    margin: 30px;
+
 }
-.twitter {
-    background-color: #066cfa;
-    padding: 10px;
+
+.apps {
+    background-color: #fefefe;
+    text-align: center;
+    padding: 5px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    justify-content: center;
     
+
 }
+.buttonT  {
+    background-color: #fefefe; 
+    border: none;
+    padding-right: 5%;
+}
+.buttonT img {
+    background-color: #fefefe; 
+    width: 50px;
+    max-height: 50px;
+    object-fit: contain;
+}
+
+.buttonF  {
+    background-color: #fefefe; 
+    border: none;
+    padding-right: 3%;
+
+}
+.buttonF img {
+    background-color: #fefefe; 
+    width: 50px;
+    max-height: 50px;
+    object-fit: contain;
+}
+
+.buttonY  {
+    background-color: #fefefe; 
+    border: none;
+    padding-right: 3%;
+
+}
+.buttonY img {
+    background-color: #fefefe; 
+    width: 70px;
+    max-height: 100px;
+    object-fit: contain;
+    padding-bottom: 10px;
+}
+
 .mail {
     text-align: center;
     background-color: #e5e886;
@@ -131,16 +176,27 @@ input[type="submit"] {
     border: none;
     cursor: pointer;
 }
+
 .poem li {
     text-align: center;
     padding: 10px;
     background-color: #c38f8f;
 } 
-.git li {
-    padding: 10px;
+
+.git {
+    padding: 5px;
     text-align: center;
     background-color: #73d3e3;
 }
+.git img {
+    object-fit: contain;
+    padding: 5px;
+    width: 60px;
+    max-height: 50px;
+    text-align: center;
+    background-color: #73d3e3;
+}
+
 /* Footer */
 footer {
     background-color: #555;
