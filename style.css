@@ -42,6 +42,28 @@ nav ul li a {
     text-decoration: none;
 }
 
+.flexc {
+    display: flex;
+    border: 2px solid green;
+    height: 100px;
+    overflow: scroll;
+    /* justify-content: center; */
+    /* justify-content: flex-start;
+    justify-content: flex-end; */
+    justify-content: space-between;
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* flex-direction: column; */
+}
+
+.flexi {
+    background-color: rgb(37, 226, 226);
+    border: 2px solid black;
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+;}
+
 /* Hero section */
 #intro {
     background-color: #7e8ae1;
@@ -75,6 +97,7 @@ nav ul li a {
 #recents ul li img {
     width: 100%;
     max-height: 200px;
+    overflow: scroll;
     object-fit: cover;
     border-radius: 200px;
     margin: 30px;
@@ -82,6 +105,7 @@ nav ul li a {
 }
 
 .apps {
+    display: flex;
     background-color: #fefefe;
     text-align: center;
     padding: 5px;
@@ -96,7 +120,7 @@ nav ul li a {
     padding-right: 5%;
 }
 .buttonT img {
-    background-color: #fefefe; 
+    background-color: #ffffff; 
     width: 50px;
     max-height: 50px;
     object-fit: contain;
