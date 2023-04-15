@@ -103,6 +103,29 @@ nav ul li a {
     padding: 20px;
 }
 
+.parent {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 400px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    object-fit: contain;
+    border: 2px solid black;
+    transition: transform 1s;
+}
+.parent:hover {
+    transform: rotate(360deg)
+}
+.bird img{
+    background-color: rgb(42, 161, 225);
+    border: 2px solid rgb(200, 42, 31);
+    width: 300px;
+    height: 300px;
+}
 /* Portfolio section */
 #recents {
     background-color: #7e8ae1;
