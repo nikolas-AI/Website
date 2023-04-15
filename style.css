@@ -104,6 +104,8 @@ nav ul li a {
 }
 
 .parent {
+    background-color: violet;
+    border-radius: 20% 20%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -114,13 +116,15 @@ nav ul li a {
     justify-content: space-between;
     flex-direction: column;
     object-fit: contain;
+    overflow: visible;
     border: 2px solid black;
     transition: transform 1s;
 }
 .parent:hover {
-    transform: rotate(360deg)
+    transform: rotate3d(3,3,3,360deg)
 }
 .bird img{
+    border-radius: 20% 20%;
     background-color: rgb(42, 161, 225);
     border: 2px solid rgb(200, 42, 31);
     width: 300px;
