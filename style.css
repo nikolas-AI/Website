@@ -103,8 +103,12 @@ nav ul li a {
     padding: 20px;
 }
 .gparent {
+    background-image:url(youtubel.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    overflow: hidden;
 }
 .parentt {
     background-color: violet;
@@ -151,7 +155,7 @@ nav ul li a {
 }
 .bird img{
     border-radius: 20% 20%;
-    background-color: rgb(42, 161, 225);
+    background-color: rgb(43, 163, 228);
     border: 2px solid rgb(200, 42, 31);
     width: 300px;
     height: 300px;
@@ -160,7 +164,7 @@ nav ul li a {
     background-color: violet;
     border-radius: 20% 20%;
     display: flex;
-    width: 400px;
+    width: 450px;
     height: 350px;
     justify-content: center;
     align-items: center;
@@ -178,7 +182,7 @@ nav ul li a {
     border-radius: 20% 20%;
     background-color: rgb(42, 161, 225);
     border: 2px solid rgb(200, 42, 31);
-    width: 300px;
+    width: 350px;
     height: 300px;
 }
 /* Portfolio section */
