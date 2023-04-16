@@ -104,8 +104,8 @@ nav ul li a {
 }
 .gparent {
     background-image:url(bgg.JPG);
-    background-repeat: repeat;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-between;
     overflow: hidden;
@@ -264,7 +264,7 @@ nav ul li a {
     width: 70px;
     max-height: 100px;
     object-fit: contain;
-    padding-bottom: 10px;
+    padding-bottom:5px;
 }
 
 .mail {
@@ -317,17 +317,22 @@ input[type="submit"] {
 
 .bars {
     display: flex;
+    background-image: url(bgi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     align-items: flex-end;
     justify-content: center;
     height: 400px;
 }
 .bar {
+    border-radius: 20%;
+    margin-right: 10px;
     border: 2px solid black;
-    width: 100px;
+    background-color: #f6f1ea;
+    width: 150px;
     height: 40px;
     max-height: 400px;
-    background: red;
-    color: white;
+    
     transition: height 1s;
 }
 
@@ -335,22 +340,31 @@ input[type="submit"] {
     height: 300px;
 }
 
+
+
 .a {
-    transition-timing-function: linear;
     background-image: url(twitterl.png);
-    background-size: cover;
-    background-size: static;
+    background-size: contain;
+    transition-timing-function: linear;
 }
 .b {
+    background-image: url(facebookl.png);
+    background-size: contain;
     transition-timing-function: ease;
 }
 .c {
+    background-image: url(youtubel.png);
+    background-size: contain;
     transition-timing-function: ease-in;
 }
 .d {
+    background-image: url(githubl.png);
+    background-size: contain;
     transition-timing-function: ease-out;
 }
 .e {
+    background-image: url(bgi.png);
+    background-size: contain;
     transition-timing-function: ease-in-out;
 }
     
