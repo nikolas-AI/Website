@@ -163,6 +163,7 @@ nav ul li a {
     max-height: 300px;
 }
 .parenty {
+    perspective: 200px;
     background-image:url(IMGA.JPG);
     border-radius: 20% 20%;
     display: flex;
@@ -175,10 +176,10 @@ nav ul li a {
     object-fit: contain;
     overflow: visible;
     border: 2px solid black;
-    transition: transform 1s;
+    transition: transform  1s;
 }
 .parenty:hover {
-    transform: rotate3d(10,3,3,360deg)
+    transform: scale3D(30, 20, 1) 
 }
 .bird img{
     object-fit: cover;
@@ -215,6 +216,7 @@ nav ul li a {
     margin: 30px;
 
 }
+
 
 .apps {
     display: flex;
@@ -312,6 +314,46 @@ input[type="submit"] {
     border: none;
     cursor: pointer;
 }
+
+.bars {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 400px;
+}
+.bar {
+    border: 2px solid black;
+    width: 100px;
+    height: 40px;
+    max-height: 400px;
+    background: red;
+    color: white;
+    transition: height 1s;
+}
+
+.bar:hover {
+    height: 300px;
+}
+
+.a {
+    transition-timing-function: linear;
+    background-image: url(twitterl.png);
+    background-size: cover;
+    background-size: static;
+}
+.b {
+    transition-timing-function: ease;
+}
+.c {
+    transition-timing-function: ease-in;
+}
+.d {
+    transition-timing-function: ease-out;
+}
+.e {
+    transition-timing-function: ease-in-out;
+}
+    
 
 .poem li {
     text-align: center;
