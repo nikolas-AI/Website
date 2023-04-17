@@ -225,18 +225,22 @@ nav ul li a {
 
 .apps {
     display: flex;
-    background-color: #fefefe;
+    background-color: white;
     text-align: center;
-    padding: 5px;
+    padding: 7px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     justify-content: center;
+    justify-content: space-evenly;
     
 
 }
 .buttonT  {
     background-color: #fefefe; 
     border: none;
-    padding-right: 5%;
+    width:35px;
+    border-radius: 100%;
+    display: flex;
+    justify-items: center;
 }
 .buttonT img {
     background-color: #ffffff; 
@@ -246,10 +250,12 @@ nav ul li a {
 }
 
 .buttonF  {
+    display: flex;
+    justify-content: center;
     background-color: #fefefe; 
     border: none;
-    padding-right: 3%;
-
+    width:35px;
+    
 }
 .buttonF img {
     background-color: #fefefe; 
@@ -259,15 +265,18 @@ nav ul li a {
 }
 
 .buttonY  {
+    display: flex;
+    align-items: center;
+    justify-items: left;
     background-color: #fefefe; 
     border: none;
-    padding-right: 3%;
+    width: 20px;
 
 }
 .buttonY img {
-    background-color: #fefefe; 
+    background-color: none; 
     width: 70px;
-    max-height: 100px;
+    max-height: 90px;
     object-fit: contain;
     padding-bottom:5px;
 }
@@ -334,11 +343,17 @@ input[type="submit"] {
 
 .mybutton {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #4292e8;
     color: #fff;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    transition: transform 1s;
+    border-radius: 6px;
+}
+.mybutton:hover{
+    transform: scale(1.2,1.2);
+    background-color: #0b62f0;
 }
 
 .bars {
@@ -352,19 +367,19 @@ input[type="submit"] {
     height: 400px;
 }
 .bar {
-    border-radius: 20%;
+    border-radius: 15%;
     margin-right: 10px;
-    border: 2px solid black;
+    border: 2px ;
     background-color: #f6f1ea;
     width: 150px;
     height: 40px;
     max-height: 400px;
-    
-    transition: height 1s;
+    transition: transform 2s,height 1s;
 }
 
 .bar:hover {
     height: 300px;
+    transform: rotate(360deg);
 }
 
 .a {
@@ -401,10 +416,9 @@ input[type="submit"] {
     color: #fff;
     text-align: center;
     border-radius: 6px;
-    padding: 5px 0;
+    padding: 5px ;
     
-    position:absolute;
-    z-index: 1;
+    
 }
 .a:hover .Ttooltip {
     visibility: visible;
@@ -468,12 +482,15 @@ input[type="submit"] {
     text-align: center;
     background-color: #73d3e3;
 }
-.gitimg img {
+.gitimg img, .buttonT, .buttonF, .buttonY {
     border-radius: 100%;
     transition: transform 0.5s;
 
 }
+.buttonT:hover, .buttonF:hover, .buttonY:hover{
+    transform: scale(1.3,1.3);
 
+}
 .gitimg img:hover {
     transform: scale(1.3,1.3);
 }
