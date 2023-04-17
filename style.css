@@ -127,7 +127,6 @@ nav ul li a {
     flex-direction: column;
     object-fit: contain;
     overflow: visible;
-    border: 2px solid black;
     transition: transform 1s;
 }
 .parentt:hover {
@@ -137,7 +136,6 @@ nav ul li a {
     object-fit: cover;
     border-radius: 20% 20%;
     background-color: rgb(42, 161, 225);
-    border: 2px solid rgb(200, 42, 31);
     max-width: 300px;
     max-height: 300px;
 }
@@ -153,7 +151,6 @@ nav ul li a {
     flex-direction: column;
     object-fit: contain;
     overflow: visible;
-    border: 2px solid black;
     transition: transform 2s;
 }
 .parentf:hover {
@@ -163,7 +160,6 @@ nav ul li a {
     object-fit: contain;
     border-radius: 20% 20%;
     background-color: rgb(43, 163, 228);
-    border: 2px solid rgb(200, 42, 31);
     max-width: 300px;
     max-height: 300px;
 }
@@ -180,7 +176,6 @@ nav ul li a {
     flex-direction: column;
     object-fit: contain;
     overflow: visible;
-    border: 2px solid black;
     transition: transform  1s;
 }
 .parenty:hover {
@@ -190,7 +185,6 @@ nav ul li a {
     object-fit: cover;
     border-radius: 20% 20%;
     background-color: rgb(42, 161, 225);
-    border: 2px solid rgb(200, 42, 31);
     max-width: 300px;
     max-height: 300px;
 }
