@@ -281,6 +281,7 @@ nav ul li a {
 .mail .text{
     text-align: center;
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-left: 45%;
     color: #e9efec;
@@ -293,7 +294,7 @@ nav ul li a {
 }
 
 .text:hover {
-    transform: scale3D(2,3,4);
+    transform: scale3D(2,2,3);
 }
 
 /* Contact section */
@@ -345,8 +346,9 @@ input[type="submit"] {
     background-image: url(bgi.png);
     background-repeat: no-repeat;
     background-size: cover;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
+    justify-content: space-between;
     height: 400px;
 }
 .bar {
@@ -386,17 +388,72 @@ input[type="submit"] {
     transition-timing-function: ease-out;
 }
 .e {
-    background-image: url(insta.png);
+    background-image: url(notion.png);
     background-size: contain;
     transition-timing-function: ease-in-out;
 }
-    
 
-.poem li {
+
+ .Ttooltip, .Ftooltip, .Ytooltip, .Gtooltip, .Ntooltip {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
     text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    position:absolute;
+    z-index: 1;
+}
+.a:hover .Ttooltip {
+    visibility: visible;
+}
+.b:hover .Ftooltip {
+    visibility: visible;
+}
+.c:hover .Ytooltip {
+    visibility: visible;
+}
+.d:hover .Gtooltip {
+    visibility: visible;
+}
+.e:hover .Ntooltip {
+    visibility: visible;
+}
+
+.buttona, .buttonb, .buttonc, .buttond, .buttone {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+.poem  {
+    display: flex;
+    border: 3px;
+    border-color: #007bff;
     padding: 10px;
-    background-color: #c38f8f;
+    background-color: #111010;
+    justify-content: center;
 } 
+.poem .texta{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eaf2ee;
+    background-color: rgb(80, 77, 77);
+    width: 150px;
+    height:30px;
+    border-radius: 100%;
+    transition: transform 1.5s;
+
+}
+
+.texta:hover {
+    transform: scale3D(2,2,3);
+}
 
 .git {
     padding: 5px;
