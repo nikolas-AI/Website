@@ -37,6 +37,11 @@ nav ul {
 
 nav ul li {
     margin-right: 20px;
+    transition: transform 0.5s;
+}
+nav ul li:hover{
+    transform: scale(1.5,1.5);
+    
 }
 
 nav ul li a {
@@ -98,12 +103,21 @@ nav ul li a {
 #intro {
     background-color: #7e8ae1;
     padding: 20px;
+    transition: transform 1s;
+    text-align: center;
 }
-
+#intro:hover{
+    transform: scale(1.1,1.1);
+}
 /* About section */
 #about {
     background-color: #9be6b9;
     padding: 20px;
+    transition: transform 1s;
+    text-align: center;
+}
+#about:hover{
+    transform: scale(1.1,1.1);
 }
 .gparent {
     background-image:url(bggi.JPG);
@@ -204,6 +218,10 @@ nav ul li a {
     flex-basis: calc(25% - 40px);
     margin: 20px;
     text-align: center;
+    transition: transform 1s;
+}
+#recents ul li:hover{
+    transform: scale(1.2,1.2);
 }
 
 #recents ul li img {
@@ -327,12 +345,11 @@ select {
     padding: 10px;
 }
 
-input[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
+label {
+    transition: transform  1s;
+}
+label:hover {
+    transform: scale(1.1,1.1);
 }
 
 .mybutton {
