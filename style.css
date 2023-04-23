@@ -299,6 +299,14 @@ nav ul li a {
     padding: 10px;
     
 }
+.mail a {
+    text-decoration: none;
+
+}
+.poem a {
+    text-decoration: none;
+
+}
 .mail .text{
     text-align: center;
     display: flex;
