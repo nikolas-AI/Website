@@ -144,7 +144,8 @@ nav ul li a {
     transition: transform 1s;
 }
 .parentt:hover {
-    transform: rotate3d(5,7,3,360deg)
+    transform: scale(-1,-1) rotate(180deg);
+
 }
 .patentt.bird img{
     object-fit: cover;
