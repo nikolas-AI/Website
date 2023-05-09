@@ -53,7 +53,7 @@ nav ul li a {
 
 .flexc {
     display: flex;
-    border: 2px solid green;
+    border: 5px solid rgb(241, 125, 10);
     height: 100px;
     /* overflow: scroll; */
     justify-content: center;
@@ -102,7 +102,7 @@ nav ul li a {
 
 /* Hero section */
 #intro {
-    background-color: #7e8ae1;
+    background: linear-gradient(to right, rgb(225, 92, 92), rgb(44, 127, 142), rgb(22, 235, 22), white ,rgb(136, 132, 132));
     padding: 20px;
     transition: transform 1s;
     text-align: center;
@@ -112,7 +112,7 @@ nav ul li a {
 }
 /* About section */
 #about {
-    background-color: #9be6b9;
+    background: linear-gradient(to right, rgb(249, 228, 0), rgb(221, 17, 146), rgb(22, 228, 235), rgb(250, 241, 183) ,rgb(52, 223, 132));
     padding: 20px;
     transition: transform 1s;
     text-align: center;
