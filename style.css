@@ -12,12 +12,18 @@ label {
     font-family: Arial, sans-serif;
 }
 body {
+    position: relative;
+    top: 80px;
     scroll-behavior:smooth;
     overflow-x: hidden;
 }
 
 /* Main header */
 header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
     background-color: #333;
     color: #fff;
     padding: 20px;
