@@ -78,14 +78,14 @@ nav ul li a {
 .item1 {
     order: 1; /*arranging items suing order. item with smaller order will apper at the beginning*/
     align-self:center;
-    background-color: #1cdf43;
+    background: linear-gradient(0.333turn, rgb(225, 207, 13), rgb(20, 215, 59));
 }
 
 .item2 {
     order: 3;
     flex-shrink: 1; /*used in respondive mode. this item will shrink the most*/
     align-self: center;
-    background-color: #1cdf43;
+    background: linear-gradient(0.333turn, rgb(225, 207, 13), rgb(20, 215, 59));
 }
 
 .item3 {
