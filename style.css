@@ -262,12 +262,11 @@ nav ul li a {
 
 }
 .buttonT  {
-    background-color: #fefefe; 
+    background-color: #ffffff; 
     border: none;
-    width:35px;
+    width:100px;
     border-radius: 100%;
-    display: flex;
-    justify-items: center;
+    
 }
 .buttonT img {
     background-color: #ffffff; 
@@ -277,11 +276,9 @@ nav ul li a {
 }
 
 .buttonF  {
-    display: flex;
-    justify-content: center;
-    background-color: #fefefe; 
+    background-color: #ffffff; 
     border: none;
-    width:35px;
+    width:100px;
     
 }
 .buttonF img {
@@ -292,17 +289,14 @@ nav ul li a {
 }
 
 .buttonY  {
-    display: flex;
-    align-items: center;
-    justify-items: left;
-    background-color: #fefefe; 
+    background-color: #ffffff; 
     border: none;
-    width: 20px;
+    width: 100px;
 
 }
 .buttonY img {
     background-color: none; 
-    width: 70px;
+    width: 50px;
     max-height: 90px;
     object-fit: contain;
     padding-bottom:5px;
@@ -405,8 +399,8 @@ label:hover {
     margin-right: 10px;
     border: 2px ;
     background-color: #f6f1ea;
-    max-width: 200px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     max-height: 400px;
     transition: transform 2s,height 1s;
 }
@@ -428,7 +422,7 @@ label:hover {
 }
 .c {
     background-image: url(youtubel.png);
-    background-size: contain;
+    background-size:contain;
     transition-timing-function: ease-in;
 }
 .d {
@@ -516,7 +510,7 @@ label:hover {
     text-align: center;
     background-color: #73d3e3;
 }
-.gitimg img, .buttonT, .buttonF, .buttonY {
+.gitimg img , .buttonT , .buttonF , .buttonY {
     border-radius: 100%;
     transition: transform 0.5s;
 
