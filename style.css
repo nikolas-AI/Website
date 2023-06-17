@@ -15,7 +15,7 @@ body {
     position: relative;
     top: 80px;
     scroll-behavior:smooth;
-    overflow-x: hidden;
+    overflow-x: scroll;
 }
 
 /* Main header */
@@ -324,7 +324,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 45%;
+    margin:auto;
     color: #e9efec;
     background-color: rgb(80, 77, 77);
     width: 200px;
